@@ -1,0 +1,55 @@
+:root
+{
+  --color:#00111a;
+  --height: 40px;
+  --height2: 70px;
+  --width: 400px;
+  --width2: 800px; 
+}
+
+* {
+  font-size: 25px;
+}
+.link {
+  width: var(--width);
+  height: var(--height2);
+  color: white;
+  
+  background-color: #00cca3;
+}
+p {
+  font-size: 40px;
+  text-align: center;
+  width: var(--width2);
+  color: white;
+  height: 20px;
+}
+.name {
+  width: 385px;
+  padding-left: 20px;
+  background-color: var(--color);
+  height: var(--height);
+}
+.email  {
+  width: var(--width2);
+  height: var(--height);
+  padding-left: 20px;
+  background-color: var(--color);
+  margin-top: 50px;
+}
+.get  {
+  width: var(--width2);
+  height: 80px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #00cca3;
+  margin-top: 50px;
+}
+fieldset  {
+  width: 830px;
+  height: 570px;
+  padding: 60px;
+  background-color: #00111a;
+
+}
